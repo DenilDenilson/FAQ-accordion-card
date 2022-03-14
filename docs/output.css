@@ -492,6 +492,38 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: -30px;
 }
 
+.top-\[-300px\] {
+  top: -300px;
+}
+
+.left-\[-482px\] {
+  left: -482px;
+}
+
+.top-\[-250px\] {
+  top: -250px;
+}
+
+.top-\[-200px\] {
+  top: -200px;
+}
+
+.top-\[200px\] {
+  top: 200px;
+}
+
+.top-\[180px\] {
+  top: 180px;
+}
+
+.top-\[150px\] {
+  top: 150px;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -547,11 +579,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .min-w-\[350px\] {
   min-width: 350px;
-}
-
-.rotate-180 {
-  --tw-rotate: 180deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .transform {
@@ -619,11 +646,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .pb-7 {
   padding-bottom: 1.75rem;
 }
@@ -673,22 +695,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: hsl(240 6% 50% / var(--tw-text-opacity));
 }
 
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .transition-transform {
   transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.transition-colors {
-  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.delay-300 {
-  transition-delay: 300ms;
 }
 
 .duration-300 {
@@ -701,4 +715,53 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.hover\:text-Soft-red:hover {
+  --tw-text-opacity: 1;
+  color: hsl(14 88% 65% / var(--tw-text-opacity));
+}
+
+@media (min-width: 1280px) {
+  .xl\:absolute {
+    position: absolute;
+  }
+
+  .xl\:relative {
+    position: relative;
+  }
+
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:flex {
+    display: flex;
+  }
+
+  .xl\:hidden {
+    display: none;
+  }
+
+  .xl\:items-center {
+    align-items: center;
+  }
+
+  .xl\:overflow-hidden {
+    overflow: hidden;
+  }
+
+  .xl\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .xl\:text-left {
+    text-align: left;
+  }
+
+  .xl\:text-Soft-red {
+    --tw-text-opacity: 1;
+    color: hsl(14 88% 65% / var(--tw-text-opacity));
+  }
 }
