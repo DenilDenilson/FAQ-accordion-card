@@ -497,11 +497,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .mt-\[6\.5rem\] {
   margin-top: 6.5rem;
 }
@@ -526,52 +521,45 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 500px;
 }
 
+.h-0 {
+  height: 0px;
+}
+
 .w-screen {
   width: 100vw;
-}
-
-.w-\[80\%\] {
-  width: 80%;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-\[350px\] {
-  width: 350px;
-}
-
-.w-\[85\%\] {
-  width: 85%;
-}
-
-.w-\[246px\] {
-  width: 246px;
 }
 
 .w-\[80vw\] {
   width: 80vw;
 }
 
+.w-\[246px\] {
+  width: 246px;
+}
+
 .w-\[75vw\] {
   width: 75vw;
 }
 
-.min-w-\[320px\] {
-  min-width: 320px;
+.w-full {
+  width: 100%;
 }
 
 .min-w-\[350px\] {
   min-width: 350px;
 }
 
-.max-w-\[700px\] {
-  max-width: 700px;
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .place-content-center {
@@ -584,6 +572,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between {
   justify-content: space-between;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-3xl {
@@ -627,6 +619,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .pb-7 {
   padding-bottom: 1.75rem;
 }
@@ -657,6 +654,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 700;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .text-Very-dark-desaturated-blue {
   --tw-text-opacity: 1;
   color: hsl(238 29% 16% / var(--tw-text-opacity));
@@ -670,4 +671,34 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-Dark-grayish-blue {
   --tw-text-opacity: 1;
   color: hsl(240 6% 50% / var(--tw-text-opacity));
+}
+
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-colors {
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.delay-300 {
+  transition-delay: 300ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
