@@ -18,8 +18,8 @@ This is a solution to the FAQ accordion card page challenge on Frontend Mentor.
 ### Desktop
 ![](https://i.imgur.com/8xOyIQ8.png)
 ### Links
-- Solution URL: [https://github.com/DenilDenilson/FAQ-accordion-card](https://github.com/DenilDenilson/sunnySideLandingPage "Repositorio")
-- Live site URL: [https://denildenilson.github.io/FAQ-accordion-card/public/index.html](https://denildenilson.github.io/sunnySideLandingPage/public/index.html "Live site URL")
+- Solution URL: [https://github.com/DenilDenilson/FAQ-accordion-card](https://github.com/DenilDenilson/FAQ-accordion-card "Repositorio")
+- Live site URL: [https://denildenilson.github.io/FAQ-accordion-card/public/index.html](https://denildenilson.github.io/FAQ-accordion-card/public/index.html "Live site URL")
 
 
 # My process
